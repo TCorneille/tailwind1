@@ -2,12 +2,12 @@ import React from 'react';
 
 export default function Mission() { // PascalCase for component names
   return (
-    <div className="relative  w-full">
-      {/* Background Image (optimized with object-cover) */}
+    <div className="relative h-auto w-full p-5">
+      
       <img 
         src="https://preview.redd.it/my-dream-house-is-black-and-dark-but-in-this-sub-all-black-v0-7d9d422tq6ac1.jpeg?width=1080&crop=smart&auto=webp&s=cdf472d2055783ade6b1d6c1a182db47b1236174" 
-        alt="Dark modern house" // Always include alt text
-        className="w-full h-70 object-cover p-5" // Full height/width
+         
+        className="w-full h-80 object-cover p-5" // Full height/width
       />
 
       

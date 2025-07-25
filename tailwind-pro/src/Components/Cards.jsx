@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Cards() {
     return (
-        <div className="bg-slate-100/80 flex gap-4 border border-white justify-center items-center ">
+        <div className="bg-slate-100/80 flex gap-4 border border-white justify-center items-center max-md:flex-col ">
             <div className='border border-white p-4 flex flex-col items-center justify-center'>
                 <img
                     src="https://as2.ftcdn.net/v2/jpg/03/84/55/29/1000_F_384552930_zPoe9zgmCF7qgt8fqSedcyJ6C6Ye3dFs.jpg"

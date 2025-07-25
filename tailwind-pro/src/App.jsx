@@ -15,51 +15,52 @@ import ContactMessage from './hooks/ContactMessage'
 import Summary from './Components/Summary'
 
 
+
 function App() {
- 
+
 
   return (
     <>
-    <div>
-       <Head/>
-    
-    </div>
-    <div>
-         <Home/>
-    </div>
-    
-     <div>
-     <Offer/>
-    </div> 
-    <div>
-      <Cards/>
-    </div> 
-     <div>
-      <About/>
-     </div>
-     <div>
-      <Benefits/>
-     </div>
-     <div>
-       <Services/>
-     </div>
-     <div>
-      <Mission/>
-     </div>
-     <div>
-      <ContactUs/>
-     </div>
       <div>
-      <Contacts/>
-     </div> 
-     {/* <div>
+        <Head />
+
+      </div>
+      <div>
+        <Home />
+      </div>
+
+      <div>
+        <Offer />
+      </div>
+      <div>
+        <Cards />
+      </div>
+      <div>
+        <About />
+      </div>
+      <div>
+        <Benefits />
+      </div>
+      <div>
+        <Services />
+      </div>
+      <div>
+        <Mission />
+      </div>
+      <div>
+        <ContactUs />
+      </div>
+      <div>
+      </div>
+      {/* <div>
       <Button/>
      </div> */}
-     <div>
-      <Summary/>
-     </div>
+      <div>
+        <Summary />
+      </div>
+      
     </>
-    
+
   )
 }
 
